@@ -2,13 +2,59 @@
     position: fixed;
     width: 100%;
     margin: 0px 15px;
+    background-color: #808080;
+}
+#nav-bar .a{
+  text-align: center;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: white;
 }
 .video1{
-margin: 100px 5px 5px 5px;
+margin-top: 110px;
+margin-left: 30%;
+margin-right: 30%;
+margin-bottom: 5 px;
 }
 .nav-link{
     display: flex;
     float: right;
     margin-right: 40px;
     margin-top: 20px;
+}
+#form {
+  margin-top: 100px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5 px;
+}
+.products{
+  display: flex;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50 px;
+}
+.New-Products{
+  display: flex;
+  padding-left: 10px;
+  margin-top: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5 px;
+}
+body {
+    background-color: white;
+  }
+@media (max-width: 600px){
+body {
+    background-color: blue;
+  }
 }
