@@ -16,8 +16,17 @@ a:hover {
 a:active {
   color: white;
 }
+h1, h3 {
+  text-align: center;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.4);
+  text-decoration-style: wavy;
+}
+table{
+  align-self: center;
+}
 .video1{
-margin-top: 110px;
+margin-top: 125px;
+padding-top: 20px;
 margin-left: 30%;
 margin-right: 30%;
 margin-bottom: 5 px;
@@ -36,6 +45,7 @@ margin-bottom: 5 px;
 }
 .products{
   display: flex;
+  align-items: center;
   padding-left: 10px;
   margin-top: 50px;
   margin-left: 10px;
@@ -44,6 +54,7 @@ margin-bottom: 5 px;
 }
 .New-Products{
   display: flex;
+  align-self: center;
   padding-left: 10px;
   margin-top: 80px;
   margin-left: 10px;
@@ -58,3 +69,21 @@ body {
     background-color: blue;
   }
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid grey;
+  padding: 5px;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  filter: drop-shadow(16px 16px 10px black);
+}
+ #header-img {
+   background: none;
+   width:100px;
+   height:100px;
+   border:1px solid black;
+   padding: 1px;
+ }
